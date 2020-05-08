@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cur_p=$(cd `dirname $0`; pwd)
-project_name="${cur_p##*/}"
-echo $project_path
-echo $project_name
+sh_name="${cur_p##*/}"
+echo $cur_p
+echo $sh_name
